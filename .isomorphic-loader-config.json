@@ -1,0 +1,31 @@
+{
+  "valid": true,
+  "version": "1.6.0",
+  "timestamp": 1483045133483,
+  "context": "client",
+  "output": {
+    "path": "/",
+    "filename": "[name].bundle.dev.js",
+    "publicPath": "http://localhost:2992/js/"
+  },
+  "assets": {
+    "marked": {},
+    "chunks": {
+      "main": [
+        "main.bundle.dev.js",
+        "style.86144de59d18ca71ba69.css",
+        "main.style.css",
+        "main.bundle.dev.js.map",
+        "style.86144de59d18ca71ba69.css.map",
+        "main.style.css.map"
+      ]
+    }
+  },
+  "webpackDev": {
+    "skipSetEnv": false,
+    "url": "http://localhost:2992",
+    "addUrl": false
+  },
+  "isWebpackDev": true,
+  "assetsFile": "/isomorphic-assets.json"
+}

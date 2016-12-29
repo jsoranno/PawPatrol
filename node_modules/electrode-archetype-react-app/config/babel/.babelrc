@@ -1,0 +1,27 @@
+{
+  "presets": [
+    "es2015",
+    "es2015-loose",
+    "react"
+  ],
+  "plugins": [
+    "babel-plugin-transform-object-rest-spread",
+    ["babel-plugin-i18n-id-hashing", {
+      "varsContainingMessages": ["defaultMessages", "translations"]
+    }],
+    ["babel-plugin-react-intl", {
+      "messagesDir": "./tmp/messages/",
+      "enforceDescriptions": true
+    }],
+    "transform-node-env-inline",
+    "lodash",
+    "transform-runtime"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "babel-plugin-transform-react-constant-elements"
+      ]
+    }
+  }
+}
